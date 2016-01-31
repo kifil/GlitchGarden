@@ -1,0 +1,311 @@
+fileFormatVersion: 2
+guid: 4fb33d7d3b9b0d44f8d2dcf2fc918ce1
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: alien spritesheet_0
+    21300002: alien spritesheet_1
+    21300004: alien spritesheet_2
+    21300006: alien spritesheet_3
+    21300008: alien spritesheet_4
+    21300010: alien spritesheet_5
+    21300012: alien spritesheet_6
+    21300014: alien spritesheet_7
+    21300016: alien spritesheet_8
+    21300018: alien spritesheet_9
+    21300020: alien spritesheet_10
+    21300022: alien spritesheet_11
+    21300024: alien spritesheet_12
+    21300026: alien spritesheet_13
+    21300028: alien spritesheet_14
+    21300030: alien spritesheet_15
+    21300032: alien spritesheet_16
+    21300034: alien spritesheet_17
+    21300036: alien spritesheet_18
+    21300038: alien spritesheet_19
+    21300040: alien spritesheet_20
+    21300042: alien spritesheet_21
+    21300044: alien spritesheet_22
+    21300046: alien spritesheet_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: alien spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 524
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 524
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 524
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 524
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 524
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 524
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 524
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 524
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 262
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 262
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 262
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 262
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 262
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 262
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 262
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 262
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 0
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 0
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 0
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 0
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 0
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alien spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 0
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
