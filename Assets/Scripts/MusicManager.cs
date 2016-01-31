@@ -24,4 +24,8 @@ public class MusicManager : MonoBehaviour {
 		}
 	}
 	
+	public void SetVolume(float volume){
+		myAudioSource.volume = volume;
+	}
+	
 }

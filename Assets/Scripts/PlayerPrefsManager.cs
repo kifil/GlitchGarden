@@ -31,7 +31,7 @@ public class PlayerPrefsManager : MonoBehaviour {
 	
 	public static bool IsLevelUnlocked(int level){
 		if(level <= Application.levelCount -1){
-			return PlayerPrefs.GetInt(LEVEL_KEY + level.ToString);
+			return PlayerPrefs.GetInt(LEVEL_KEY + level.ToString()) == 1;
 		}
 		else{
 			Debug.LogError("Level unlock value out of range or not in build:" + level);
@@ -39,9 +39,9 @@ public class PlayerPrefsManager : MonoBehaviour {
 		}
 	}
 	
-	public static void SetDifficulty(float difficulty){
-		if(difficulty >=0f && difficulty <=1f){
-			PlayerPrefs.SetFloat(DIFFICULTY_KEY,difficulty);
+	public static void SetDifficulty(int difficulty){
+		if(difficulty >=1 && difficulty <=3){
+			PlayerPrefs.SetInt(DIFFICULTY_KEY,difficulty);
 		}
 		else{
 			Debug.LogError("Prefs difficulty out of range: "+ difficulty);
@@ -49,8 +49,8 @@ public class PlayerPrefsManager : MonoBehaviour {
 	
 	}
 	
-	public static float GetDifficulty(){
-		return PlayerPrefs.GetFloat(DIFFICULTY_KEY);
+	public static int GetDifficulty(){
+		return PlayerPrefs.GetInt(DIFFICULTY_KEY);
 	}
 	
 }
