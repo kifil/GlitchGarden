@@ -5,9 +5,15 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Lizard
+  m_Name: Fox
   serializedVersion: 2
   m_AnimatorParameters:
+  - m_Name: foxJump
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
   - m_Name: isAttacking
     m_Type: 4
     m_DefaultFloat: 0
@@ -17,7 +23,7 @@ AnimatorController:
   m_AnimatorLayers:
   - serializedVersion: 3
     m_Name: Base Layer
-    m_StateMachine: {fileID: 110708632}
+    m_StateMachine: {fileID: 110723494}
     m_Mask: {fileID: 0}
     m_BlendingMode: 0
     m_SyncedLayerIndex: -1
@@ -26,35 +32,35 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1101 &110134582
+--- !u!1101 &110111950
 Transition:
   serializedVersion: 2
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-  m_SrcState: {fileID: 110212188}
-  m_DstState: {fileID: 110291822}
+  m_SrcState: {fileID: 110267808}
+  m_DstState: {fileID: 110222882}
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
-    m_ConditionEvent: 
+    m_ConditionEvent: isAttacking
     m_EventTreshold: 0
     m_ExitTime: 1
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
   m_CanTransitionToSelf: 0
---- !u!1101 &110144116
+--- !u!1101 &110155208
 Transition:
   serializedVersion: 2
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-  m_SrcState: {fileID: 110291822}
-  m_DstState: {fileID: 110232038}
+  m_SrcState: {fileID: 110222882}
+  m_DstState: {fileID: 110267562}
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
@@ -66,15 +72,15 @@ Transition:
   m_Solo: 0
   m_Mute: 0
   m_CanTransitionToSelf: 0
---- !u!1101 &110145426
+--- !u!1101 &110182540
 Transition:
   serializedVersion: 2
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-  m_SrcState: {fileID: 110232038}
-  m_DstState: {fileID: 110291822}
+  m_SrcState: {fileID: 110267562}
+  m_DstState: {fileID: 110222882}
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
@@ -86,78 +92,99 @@ Transition:
   m_Solo: 0
   m_Mute: 0
   m_CanTransitionToSelf: 0
---- !u!1102 &110212188
+--- !u!1101 &110197120
+Transition:
+  serializedVersion: 2
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_SrcState: {fileID: 110222882}
+  m_DstState: {fileID: 110267808}
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: foxJump
+    m_EventTreshold: 0
+    m_ExitTime: 1
+  m_Atomic: 1
+  m_Solo: 0
+  m_Mute: 0
+  m_CanTransitionToSelf: 0
+--- !u!1102 &110222882
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Appear
+  m_Name: Fox Walk
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: b455c2ba54df9594f96b69cdc1be403c, type: 2}
-  m_ParentStateMachine: {fileID: 110708632}
-  m_Position: {x: 264, y: 12, z: 0}
+  - {fileID: 7400000, guid: eb8616f315ed14940a128f94e35f6e79, type: 2}
+  m_ParentStateMachine: {fileID: 110723494}
+  m_Position: {x: 36, y: -12, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
---- !u!1102 &110232038
+--- !u!1102 &110267562
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Attacking
+  m_Name: Fox Attack
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 61bbf97ca5a1f6f46b4b7935cc374423, type: 2}
-  m_ParentStateMachine: {fileID: 110708632}
-  m_Position: {x: 576, y: 120, z: 0}
+  - {fileID: 7400000, guid: f88b3be211b69c44482e9c4728e1f76e, type: 2}
+  m_ParentStateMachine: {fileID: 110723494}
+  m_Position: {x: 360, y: -12, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
---- !u!1102 &110291822
+--- !u!1102 &110267808
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Walking
+  m_Name: Fox Jump
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 0156c1ee77484274bb6a5737d4b130ec, type: 2}
-  m_ParentStateMachine: {fileID: 110708632}
-  m_Position: {x: 576, y: 12, z: 0}
+  - {fileID: 7400000, guid: ae87975835d955f4aa75acaf1171f4e8, type: 2}
+  m_ParentStateMachine: {fileID: 110723494}
+  m_Position: {x: 192, y: -108, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
---- !u!1107 &110708632
+--- !u!1107 &110723494
 StateMachine:
   serializedVersion: 2
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Base Layer
-  m_DefaultState: {fileID: 110212188}
+  m_DefaultState: {fileID: 110222882}
   m_States:
-  - {fileID: 110212188}
-  - {fileID: 110291822}
-  - {fileID: 110232038}
+  - {fileID: 110267562}
+  - {fileID: 110222882}
+  - {fileID: 110267808}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110212188}
+      first: {fileID: 110267562}
       second:
-      - {fileID: 110134582}
+      - {fileID: 110182540}
     data:
-      first: {fileID: 110291822}
+      first: {fileID: 110222882}
       second:
-      - {fileID: 110144116}
+      - {fileID: 110197120}
+      - {fileID: 110155208}
     data:
-      first: {fileID: 110232038}
+      first: {fileID: 110267808}
       second:
-      - {fileID: 110145426}
+      - {fileID: 110111950}
   m_MotionSetCount: 1
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_AnyStatePosition: {x: -156, y: -12, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

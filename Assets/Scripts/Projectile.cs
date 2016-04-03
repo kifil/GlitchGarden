@@ -1,15 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class test : MonoBehaviour {
+public class Projectile : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log(PlayerPrefsManager.GetDifficulty());
+	
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
+	}
+	
+	void OnTriggerEnter2D(Collider2D collider){
+		Debug.Log("Projectile collided with" + collider);
 	}
 }

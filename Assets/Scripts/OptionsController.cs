@@ -28,8 +28,6 @@ public class OptionsController : MonoBehaviour {
 		PlayerPrefsManager.SetMasterVolume(volumeSlider.value);
 		PlayerPrefsManager.SetDifficulty(Mathf.FloorToInt(difficultySlider.value));
 		
-		var thing =PlayerPrefsManager.GetMasterVolume();
-		
 		musicManager.SetVolume(volumeSlider.value);
 		
 		levelManager.LoadLevel("Start");
