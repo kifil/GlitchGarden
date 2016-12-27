@@ -43,7 +43,7 @@ public class Attacker : MonoBehaviour {
 		//Debug.Log(name + "did " + damage + " damage!");
 	}
 	
-	public void AttackTarget(GameObject targtObject){
+	public void SetTarget(GameObject targtObject){
 		currentTarget = targtObject;
 	}
 }

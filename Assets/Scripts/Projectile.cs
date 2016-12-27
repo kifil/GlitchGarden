@@ -19,7 +19,4 @@ public class Projectile : MonoBehaviour {
 		Debug.Log("Projectile collided with" + collider);
 	}
 	
-	void OnBecaomeInvisible(){
-		Destroy(gameObject);
-	}
 }
