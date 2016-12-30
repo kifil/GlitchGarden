@@ -5,6 +5,9 @@ using System.Collections;
 [RequireComponent (typeof(Rigidbody2D))]
 public class Attacker : MonoBehaviour {
 
+	[Tooltip ("Average number of seconds between spawns")]
+	public float seenEverySeconds;
+
 	private float currentSpeed;
 	private GameObject currentTarget;
 	private Health myHealth;
@@ -32,15 +35,12 @@ public class Attacker : MonoBehaviour {
 	}
 	
 	public void StrikeCurrentTarget(float damage){
-	
 		if(currentTarget){
 			Health targetHealth = currentTarget.GetComponent<Health>();
 				if(targetHealth){
 					targetHealth.DealDamage(damage);
 				}
 		}		
-//		currentTarget.GetComponent<Health>().UpdateHealth(-damage);
-		//Debug.Log(name + "did " + damage + " damage!");
 	}
 	
 	public void SetTarget(GameObject targtObject){

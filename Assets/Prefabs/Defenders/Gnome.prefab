@@ -58,7 +58,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 127148}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -.352999985, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 484240}
@@ -127,7 +127,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 171644, guid: 414fc613b73ac2f41bf2ed6b0ac81d6b, type: 2}
-  projectileParent: {fileID: 132014, guid: b712480fd56c9434282eefd137ab3b83, type: 2}
   gun: {fileID: 127148}
 --- !u!114 &11488566
 MonoBehaviour:

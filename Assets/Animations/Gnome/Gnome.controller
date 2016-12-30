@@ -12,7 +12,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
+    m_DefaultBool: 1
     m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 3
@@ -282,10 +282,6 @@ StateMachine:
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110236646}
-      second:
-      - {fileID: 110178236}
-    data:
       first: {fileID: 110269412}
       second:
       - {fileID: 110178832}
@@ -294,6 +290,10 @@ StateMachine:
       second:
       - {fileID: 110135372}
       - {fileID: 110118692}
+    data:
+      first: {fileID: 110236646}
+      second:
+      - {fileID: 110178236}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: -96, y: -24, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
