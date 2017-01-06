@@ -21,7 +21,6 @@ public class DefenderSpawner : MonoBehaviour {
 	void OnMouseDown(){
 		Vector2 rawWorldPosition = CalculateWorldPointOfMoustClick();
 		Vector2 roundedWorldPosition = SnapToGrid(rawWorldPosition);
-		Quaternion zeroRotation = Quaternion.identity;
 		GameObject selectedDefender = Button.selectedDefender;
 	
 		//no defender selected, don't try to spawn

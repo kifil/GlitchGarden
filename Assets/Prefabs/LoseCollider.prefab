@@ -1,48 +1,56 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &107266
+--- !u!1 &167286
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 407266}
-  - 114: {fileID: 11464968}
+  - 4: {fileID: 467286}
+  - 61: {fileID: 6167286}
+  - 114: {fileID: 11467286}
   m_Layer: 0
-  m_Name: Spawner
+  m_Name: LoseCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &407266
+--- !u!4 &467286
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 107266}
+  m_GameObject: {fileID: 167286}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -.5, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11464968
+--- !u!61 &6167286
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 167286}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 1, y: 1}
+  m_Center: {x: 0, y: 0}
+--- !u!114 &11467286
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 107266}
+  m_GameObject: {fileID: 167286}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b71eb4747823ba4aa0642ef977d3dae, type: 3}
+  m_Script: {fileID: 11500000, guid: d20da85c7d199284fa41bbbf075a4609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackerPrefabs:
-  - {fileID: 148196, guid: a08177f4e8483d94ab489c7ab2279b53, type: 2}
-  - {fileID: 114666, guid: 02d3a004e1151664db35fc28c58e3c33, type: 2}
-  numberOfLanes: 5
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -52,6 +60,6 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 107266}
+  m_RootGameObject: {fileID: 167286}
   m_IsPrefabParent: 1
   m_IsExploded: 1
