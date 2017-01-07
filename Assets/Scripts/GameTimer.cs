@@ -42,6 +42,6 @@ public class GameTimer : MonoBehaviour {
 	}
 	
 	void LoadNextLevel(){
-		levelManager.LoadLevel("Win");
+		levelManager.LoadNextLevel();
 	}
 }

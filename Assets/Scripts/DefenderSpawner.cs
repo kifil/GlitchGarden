@@ -18,6 +18,8 @@ public class DefenderSpawner : MonoBehaviour {
 		
 	}
 	
+	
+	
 	void OnMouseDown(){
 		Vector2 rawWorldPosition = CalculateWorldPointOfMoustClick();
 		Vector2 roundedWorldPosition = SnapToGrid(rawWorldPosition);

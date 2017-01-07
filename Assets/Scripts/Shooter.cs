@@ -27,7 +27,6 @@ public class Shooter : MonoBehaviour {
 		foreach(Spawner spawner in allSpawners){
 			if(spawner.transform.position.y == this.transform.position.y){
 				myLaneSpawner = spawner;
-				Debug.Log ("found my spawner: " + myLaneSpawner.transform.position.y);
 				return;
 			}
 		}
