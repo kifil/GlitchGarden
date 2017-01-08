@@ -1,0 +1,982 @@
+fileFormatVersion: 2
+guid: 121f2a897298b9a42a1e4ab062368947
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Butler_Idle_0
+    21300002: Butler_Idle_1
+    21300004: Butler_Idle_2
+    21300006: Butler_Idle_3
+    21300008: Butler_Idle_4
+    21300010: Butler_Idle_5
+    21300012: Butler_Idle_6
+    21300014: Butler_Idle_7
+    21300016: Butler_Idle_8
+    21300018: Butler_Idle_9
+    21300020: Butler_Idle_10
+    21300022: Butler_Idle_11
+    21300024: Butler_Idle_12
+    21300026: Butler_Idle_13
+    21300028: Butler_Idle_14
+    21300030: Butler_Idle_15
+    21300032: Butler_Idle_16
+    21300034: Butler_Idle_17
+    21300036: Butler_Idle_18
+    21300038: Butler_Idle_19
+    21300040: Butler_Idle_20
+    21300042: Butler_Idle_21
+    21300044: Butler_Idle_22
+    21300046: Butler_Idle_23
+    21300048: Butler_Idle_24
+    21300050: Butler_Idle_25
+    21300052: Butler_Idle_26
+    21300054: Butler_Idle_27
+    21300056: Butler_Idle_28
+    21300058: Butler_Idle_29
+    21300060: Butler_Idle_30
+    21300062: Butler_Idle_31
+    21300064: Butler_Idle_32
+    21300066: Butler_Idle_33
+    21300068: Butler_Idle_34
+    21300070: Butler_Idle_35
+    21300072: Butler_Idle_36
+    21300074: Butler_Idle_37
+    21300076: Butler_Idle_38
+    21300078: Butler_Idle_39
+    21300080: Butler_Idle_40
+    21300082: Butler_Idle_41
+    21300084: Butler_Idle_42
+    21300086: Butler_Idle_43
+    21300088: Butler_Idle_44
+    21300090: Butler_Idle_45
+    21300092: Butler_Idle_46
+    21300094: Butler_Idle_47
+    21300096: Butler_Idle_48
+    21300098: Butler_Idle_49
+    21300100: Butler_Idle_50
+    21300102: Butler_Idle_51
+    21300104: Butler_Idle_52
+    21300106: Butler_Idle_53
+    21300108: Butler_Idle_54
+    21300110: Butler_Idle_55
+    21300112: Butler_Idle_56
+    21300114: Butler_Idle_57
+    21300116: Butler_Idle_58
+    21300118: Butler_Idle_59
+    21300120: Butler_Idle_60
+    21300122: Butler_Idle_61
+    21300124: Butler_Idle_62
+    21300126: Butler_Idle_63
+    21300128: Butler_Idle_64
+    21300130: Butler_Idle_65
+    21300132: Butler_Idle_66
+    21300134: Butler_Idle_67
+    21300136: Butler_Idle_68
+    21300138: Butler_Idle_69
+    21300140: Butler_Idle_70
+    21300142: Butler_Idle_71
+    21300144: Butler_Idle_72
+    21300146: Butler_Idle_73
+    21300148: Butler_Idle_74
+    21300150: Butler_Idle_75
+    21300152: Butler_Idle_76
+    21300154: Butler_Idle_77
+    21300156: Butler_Idle_78
+    21300158: Butler_Idle_79
+    21300160: Butler_Idle_80
+    21300162: Butler_Idle_81
+    21300164: Butler_Idle_82
+    21300166: Butler_Idle_83
+    21300168: Butler_Idle_84
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Butler_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1410
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1410
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1410
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1410
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1410
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1410
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1410
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1410
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1269
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1269
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1269
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1269
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1269
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1269
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1269
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1269
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1128
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1128
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1128
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1128
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1128
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1128
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1128
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1128
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 987
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 987
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 987
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 987
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 987
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 987
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_30
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 987
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_31
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 987
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_33
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_34
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_35
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_36
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_37
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_38
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_39
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_41
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_42
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_43
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_44
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_45
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_46
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_47
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_49
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_50
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_51
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_52
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_53
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_54
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_55
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_57
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_58
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_59
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_60
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_61
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_62
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_63
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_65
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_66
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_67
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_68
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_69
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_70
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_71
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_73
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_74
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_75
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_76
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_77
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_78
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_79
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_81
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_82
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_83
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Idle_84
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

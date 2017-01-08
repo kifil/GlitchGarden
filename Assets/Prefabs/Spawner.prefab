@@ -23,7 +23,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 107266}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12, y: 1, z: 0}
+  m_LocalPosition: {x: 12, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -42,6 +42,7 @@ MonoBehaviour:
   attackerPrefabs:
   - {fileID: 148196, guid: a08177f4e8483d94ab489c7ab2279b53, type: 2}
   - {fileID: 114666, guid: 02d3a004e1151664db35fc28c58e3c33, type: 2}
+  - {fileID: 114666, guid: 80c3aea0707ea3841a5c511fce5d8da4, type: 2}
   numberOfLanes: 5
 --- !u!1001 &100100000
 Prefab:

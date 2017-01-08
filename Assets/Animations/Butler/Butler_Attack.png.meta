@@ -1,0 +1,619 @@
+fileFormatVersion: 2
+guid: 77c9b13408095bd41b5c47271e2dc22b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Butler_Attack_0
+    21300002: Butler_Attack_1
+    21300004: Butler_Attack_2
+    21300006: Butler_Attack_3
+    21300008: Butler_Attack_4
+    21300010: Butler_Attack_5
+    21300012: Butler_Attack_6
+    21300014: Butler_Attack_7
+    21300016: Butler_Attack_8
+    21300018: Butler_Attack_9
+    21300020: Butler_Attack_10
+    21300022: Butler_Attack_11
+    21300024: Butler_Attack_12
+    21300026: Butler_Attack_13
+    21300028: Butler_Attack_14
+    21300030: Butler_Attack_15
+    21300032: Butler_Attack_16
+    21300034: Butler_Attack_17
+    21300036: Butler_Attack_18
+    21300038: Butler_Attack_19
+    21300040: Butler_Attack_20
+    21300042: Butler_Attack_21
+    21300044: Butler_Attack_22
+    21300046: Butler_Attack_23
+    21300048: Butler_Attack_24
+    21300050: Butler_Attack_25
+    21300052: Butler_Attack_26
+    21300054: Butler_Attack_27
+    21300056: Butler_Attack_28
+    21300058: Butler_Attack_29
+    21300060: Butler_Attack_30
+    21300062: Butler_Attack_31
+    21300064: Butler_Attack_32
+    21300066: Butler_Attack_33
+    21300068: Butler_Attack_34
+    21300070: Butler_Attack_35
+    21300072: Butler_Attack_36
+    21300074: Butler_Attack_37
+    21300076: Butler_Attack_38
+    21300078: Butler_Attack_39
+    21300080: Butler_Attack_40
+    21300082: Butler_Attack_41
+    21300084: Butler_Attack_42
+    21300086: Butler_Attack_43
+    21300088: Butler_Attack_44
+    21300090: Butler_Attack_45
+    21300092: Butler_Attack_46
+    21300094: Butler_Attack_47
+    21300096: Butler_Attack_48
+    21300098: Butler_Attack_49
+    21300100: Butler_Attack_50
+    21300102: Butler_Attack_51
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Butler_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 846
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 705
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 564
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_28
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_29
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_30
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_31
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 423
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_33
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_34
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_35
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_36
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_37
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_38
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_39
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 282
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_41
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_42
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_43
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_44
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_45
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_46
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_47
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 141
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_49
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_50
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Butler_Attack_51
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -24,7 +24,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 484554}
-  - 114: {fileID: 11484554}
   - 61: {fileID: 6184554}
   - 50: {fileID: 5084554}
   - 114: {fileID: 11480780}
@@ -115,19 +114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   damage: 10
---- !u!114 &11484554
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 184554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8921fb5ac5de59447b012efb882f9876, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  damage: 0
+  onHitEffects: []
 --- !u!212 &21210932
 SpriteRenderer:
   m_ObjectHideFlags: 1

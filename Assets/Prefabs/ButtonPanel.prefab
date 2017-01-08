@@ -47,7 +47,7 @@ GameObject:
   - 61: {fileID: 6100046}
   - 114: {fileID: 11400048}
   m_Layer: 0
-  m_Name: Gnome
+  m_Name: Butler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -229,7 +229,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100050}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.11000013, y: 6.01000023, z: -1}
+  m_LocalPosition: {x: 5.01200008, y: 6.00299978, z: -1}
   m_LocalScale: {x: .636036992, y: .691344976, z: .691344976}
   m_Children:
   - {fileID: 22400050}
@@ -406,7 +406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de916cb7012177b4d8f73b2fc7ee85f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defenderPrefab: {fileID: 184240, guid: 8c22d1e9d6711ef41b49572588e9281d, type: 2}
+  defenderPrefab: {fileID: 190802, guid: 9a1ad27f200e05940b1089647e90c3df, type: 2}
 --- !u!114 &11400050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -579,7 +579,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300008, guid: cdc0da292b3ac41989de40edbf0c5883, type: 3}
+  m_Sprite: {fileID: 21300166, guid: 121f2a897298b9a42a1e4ab062368947, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
 --- !u!212 &21200048
 SpriteRenderer:

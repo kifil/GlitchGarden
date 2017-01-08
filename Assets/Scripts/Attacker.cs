@@ -12,10 +12,12 @@ public class Attacker : MonoBehaviour {
 	private GameObject currentTarget;
 	private Health myHealth;
 	private Animator myAnimator;
+	private SpriteRenderer mySpriteRenderer;
 
 	// Use this for initialization
 	void Start () {
 		myAnimator = GetComponent<Animator>();
+		mySpriteRenderer = this.transform.FindChild("Body").GetComponent<SpriteRenderer>();
 	}
 	
 	// Update is called once per frame
@@ -24,6 +26,11 @@ public class Attacker : MonoBehaviour {
 			myAnimator.SetBool("isAttacking",false);
 		}
 		transform.Translate(Vector3.left * currentSpeed * Time.deltaTime);
+		
+		if(gameObject.GetComponent<SlowEffect>()){
+			mySpriteRenderer.color = Color.cyan;
+			//SetSpeed(currentSpeed);
+		}
 	}
 	
 	void OnTriggerEnter2D(Collider2D collider){
@@ -32,6 +39,11 @@ public class Attacker : MonoBehaviour {
 	
 	public void SetSpeed(float speed){
 		currentSpeed = speed;
+		
+		SlowEffect slowEffect = gameObject.GetComponent<SlowEffect>();
+		if(slowEffect){
+			currentSpeed = speed * slowEffect.GetSlowAmount();
+		}
 	}
 	
 	public void StrikeCurrentTarget(float damage){
@@ -45,5 +57,13 @@ public class Attacker : MonoBehaviour {
 	
 	public void SetTarget(GameObject targtObject){
 		currentTarget = targtObject;
+	}
+	
+	public void AddEffect(string componentName){
+		if(this.GetComponent(componentName)){
+			Destroy(this.GetComponent(componentName));
+		}
+		
+		var newComponent = gameObject.AddComponent(componentName);
 	}
 }
