@@ -10,7 +10,6 @@ public class SlowEffect : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	Debug.Log ("starting slow");
 		remainingSlowDuration = slowDuration;
 	}
 	
