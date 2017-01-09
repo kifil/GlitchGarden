@@ -35,10 +35,19 @@ public class GameTimer : MonoBehaviour {
 	}
 	
 	void CompleteLevel(){
+		DestroyAllTaggedObjectsOnWin();
 		victoryAudioSource.Play();
 		victoryText.SetActive(true);
 		Invoke("LoadNextLevel", victoryAudioSource.clip.length);
 	
+	}
+	
+	//destory all objects with the destoryOnWin Tag
+	void DestroyAllTaggedObjectsOnWin(){
+		GameObject[] objectsToDestory = GameObject.FindGameObjectsWithTag("destroyOnWin");
+		foreach(GameObject objectToDestory in objectsToDestory){
+			Destroy(objectToDestory);
+		}
 	}
 	
 	void LoadNextLevel(){

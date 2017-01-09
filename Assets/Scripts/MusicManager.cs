@@ -10,6 +10,7 @@ public class MusicManager : MonoBehaviour {
 	void Start () {
 		GameObject.DontDestroyOnLoad(gameObject);
 		myAudioSource = GetComponent<AudioSource>();
+		myAudioSource.volume = PlayerPrefsManager.GetMasterVolume();
 	}
 	
 	void OnLevelWasLoaded(int level){
