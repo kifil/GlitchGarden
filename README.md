@@ -10,7 +10,7 @@ Features:
 * 3 terrifying enemy types
 * Complete menu system
 * Full soundtrack to set the mood
-* User preference system to your settings
+* User preference system to save your settings
 
 
 ###### All assets courtesy of http://www.glitchthegame.com/
