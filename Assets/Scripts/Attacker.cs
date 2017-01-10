@@ -64,6 +64,6 @@ public class Attacker : MonoBehaviour {
 			Destroy(this.GetComponent(componentName));
 		}
 		
-		var newComponent = gameObject.AddComponent(componentName);
+		var newComponent = UnityEngineInternal.APIUpdaterRuntimeServices.AddComponent(gameObject, "Assets/Scripts/Attacker.cs (67,22)", componentName);
 	}
 }
