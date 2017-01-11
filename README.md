@@ -2,7 +2,9 @@
 
 ![Glitch Garden screenshot](Screenshot.png)
 
-##### A tower defense game where you defend your home base from an endless army of strange beasts. 
+## Play the game on Itch.io! https://kifil.itch.io/glitch-garden
+
+A tower defense game where you defend your home base from an endless army of strange beasts. 
 
 Features:
 * 3 levels of heart pounding action
