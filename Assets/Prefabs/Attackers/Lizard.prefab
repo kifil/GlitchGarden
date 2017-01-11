@@ -5,15 +5,15 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 414666}
-  - 95: {fileID: 9514666}
-  - 114: {fileID: 11461396}
-  - 61: {fileID: 6150566}
-  - 114: {fileID: 11455180}
-  - 50: {fileID: 5040238}
-  - 114: {fileID: 11482872}
+  - component: {fileID: 414666}
+  - component: {fileID: 9514666}
+  - component: {fileID: 11461396}
+  - component: {fileID: 6150566}
+  - component: {fileID: 11455180}
+  - component: {fileID: 5040238}
+  - component: {fileID: 11482872}
   m_Layer: 0
   m_Name: Lizard
   m_TagString: destroyOnWin
@@ -26,10 +26,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 414668}
-  - 212: {fileID: 21214666}
+  - component: {fileID: 414668}
+  - component: {fileID: 21214666}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -66,17 +66,20 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &5040238
 Rigidbody2D:
-  serializedVersion: 2
+  serializedVersion: 4
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 114666}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 1
-  m_IsKinematic: 1
+  m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -134,7 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 708e20477c850a949b13f759697c0860, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seenEverySeconds: 10
+  seenEverySeconds: 8
 --- !u!114 &11482872
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -161,7 +164,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -169,7 +174,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
